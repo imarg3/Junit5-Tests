@@ -24,10 +24,10 @@ public class BookShelfSpec {
     @BeforeEach
     void init(Map<String, Book> books){
         shelf = new BookShelf();
-        effectiveJava = books.get("Effective Java");
-        codeComplete = books.get("Code Complete");
-        mythicalManMonth = books.get("The Mythical Man-Month");
-        cleanCode = books.get("Clean Code");
+        this.effectiveJava = books.get("Effective Java");
+        this.codeComplete = books.get("Code Complete");
+        this.mythicalManMonth = books.get("The Mythical Man-Month");
+        this.cleanCode = books.get("Clean Code");
     }
 
     @Nested

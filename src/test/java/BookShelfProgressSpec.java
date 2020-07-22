@@ -33,6 +33,7 @@ public class BookShelfProgressSpec {
     }
 
     @Test
+    @Disabled
     @DisplayName("is 0% completed and 100% to-read when no book is read yet")
     void progress100PercentageUnread(){
         Progress progress = shelf.progress();
@@ -43,6 +44,7 @@ public class BookShelfProgressSpec {
     @Tag("nightly")
     @Tag("generate-progress")
     @Test
+    @Disabled
     @DisplayName("is 40% completed and 60% to-read when 2 books are finished and 3 books not read yet")
     void progressWithCompletedAndToReadPercentages(){
         effectiveJava.startedReadingOn(LocalDate.of(2016, Month.JULY, 1));
