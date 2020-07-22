@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BookShelfSpec$ArrangeBooks" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-07-22T17:16:18" hostname="Arpits-MacBook-Pro.local" time="0.056">
+  <properties/>
+  <testcase name="groupBooksInsideBookShelfByPublicationYear()" classname="BookShelfSpec$ArrangeBooks" time="0.044"/>
+  <testcase name="bookShelfArrangedByUserProvidedCriteria()" classname="BookShelfSpec$ArrangeBooks" time="0.005"/>
+  <testcase name="groupBooksByUserProvidedCriteria(TestInfo)" classname="BookShelfSpec$ArrangeBooks" time="0.003"/>
+  <testcase name="booksInBookShelfAreInInsertionOrderAfterCallingArrange()" classname="BookShelfSpec$ArrangeBooks" time="0.002"/>
+  <testcase name="bookShelfArrangedByBookTitle()" classname="BookShelfSpec$ArrangeBooks" time="0.0"/>
+  <system-out><![CDATA[Display Name :: books inside bookshelf are grouped according to user provided criteria (group by author name)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

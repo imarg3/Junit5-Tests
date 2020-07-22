@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BookFilterSpec" tests="2" skipped="1" failures="0" errors="0" timestamp="2020-07-22T17:16:18" hostname="Arpits-MacBook-Pro.local" time="0.265">
+  <properties/>
+  <testcase name="shouldNotInvokeAfterFirstFailure()" classname="BookFilterSpec" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="shouldInvokeAllFilters()" classname="BookFilterSpec" time="0.264"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
